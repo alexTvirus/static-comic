@@ -1,0 +1,35 @@
+﻿-1 setup layout
+-2 reset css
+-3 img bg + tranfer color cho từng comic
+-4 viết trang index
+	+ header
+	+ list card
+-5 viết trang product
+	+ nav bar
+	+ list card
+-6 viết trang product-info
+	+ list card
+	+ slide img
+
+
+
+-------------
+
+- stick nav bar ở trang product info , product ( khi lăn chuột xuống thì nav bar vẫn bị stick)
+- button di chuyển lên đầu trang (ok)
+- bắt sự kiện click và scroll header và bottom navibar (ok)
+	- click chuột trái ra ngoài browser ở bất kì đâu mà ko có cursor pointer ,thì cho hiện header và bar xem truyện
+
+- chỉ opacity cho phần tử cha,ko ảnh hưởng đến phần tử con
+
+- phần commnent ở product detail chap ter và product info phải cho nó expand ra
+
+- trang product-detail-chapter ko cần đổi màu theo chủ đề
+
+-tranfer color cho từng comic
+	- các vị trí cần lấy màu động bao gồm
+	- tranfer-bg
+	- bg-content
+	- .content-anchor .cards .card
+	- nav-bar-anchor
+	- block-search

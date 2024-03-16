@@ -38,6 +38,8 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/product.css">
 	<link rel="stylesheet" href="./assets/css/color.css">
+    <link rel="stylesheet" href="./assets/css/tranfer-and-bg.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -45,7 +47,7 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="block-search">
+            <div id="block-search" class="block-search">
                 <div class="col-right">
                     <a href="#">
                         <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAzMiAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00LjQxNzUzIDEwLjU4NThMNy45NDU2NiA3LjA1NzY4TDcuOTUzMDUgNy4wNTAyMkM4LjM0MzU3IDYuNjU5NjkgOC45NzY3NCA2LjY1OTY5IDkuMzY3MjYgNy4wNTAyMkM5Ljc1Nzc3IDcuNDQwNzMgOS43NTc3OSA4LjA3Mzg3IDkuMzY3MyA4LjQ2NDM5TDkuMzY3MzQgOC40NjQ0M0w2LjgzMTggMTFIMjguMDAwMkMyOC41NTI1IDExIDI5LjAwMDIgMTEuNDQ3NyAyOS4wMDAyIDEyQzI5LjAwMDIgMTIuNTUyMyAyOC41NTI1IDEzIDI4LjAwMDIgMTNINi44MzE2OUw5LjM2MTQ5IDE1LjUyOThMOS4zNjcyNiAxNS41MzU1QzkuNzU3NzkgMTUuOTI2IDkuNzU3NzkgMTYuNTU5MiA5LjM2NzI2IDE2Ljk0OTdDOC45NzY3NCAxNy4zNDAyIDguMzQzNTcgMTcuMzQwMiA3Ljk1MzA1IDE2Ljk0OTdMNy45NTMwNCAxNi45NDk3TDcuOTUzMDEgMTYuOTQ5N0w0LjAwMzI2IDEzSDQuMDAwMlYxMi45OTY5TDMuNzEwMzcgMTIuNzA3MUMzLjMxOTg1IDEyLjMxNjYgMy4zMTk4NSAxMS42ODM0IDMuNzEwMzcgMTEuMjkyOUw0LjAwMDIgMTEuMDAzVjExSDQuMDAzMjdMNC40MTc0OCAxMC41ODU4TDQuNDE3NTMgMTAuNTg1OFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo="
@@ -60,30 +62,28 @@
                         <img src="./assets/images/menu.svg" alt="">
                     </div>
                 </div>
-
-
-                <div class="tab-nav-header" id="tab-nav-header">
-                    <button id="close-tab-nav-header" class="close-tab-nav-header">
-                        <img src="./assets/images/close.svg" alt="close">
-                    </button>
-                    <ul>
-                        <li class="nav-item">
-                            <a href="" class="s13-bold-white">Liên hệ</a>
-                            <ul class="sub-contact">
-                                <li>
-                                    <a target="_blank" href="https://m.me/AlexVrt1">
-                                        <img src="./assets/images/messenger.webp" alt="">
-                                    </a>
-                                </li>
-                                <li>
-                                    <a target="_blank" href="mailto:firecomic247@gmail.com">
-                                        <img src="./assets/images/email.webp" alt="">
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+            </div>
+            <div class="tab-nav-header" id="tab-nav-header">
+                <button id="close-tab-nav-header" class="close-tab-nav-header">
+                    <img src="./assets/images/close.svg" alt="close">
+                </button>
+                <ul>
+                    <li class="nav-item">
+                        <a href="" class="s13-bold-white">Liên hệ</a>
+                        <ul class="sub-contact">
+                            <li>
+                                <a target="_blank" href="https://m.me/AlexVrt1">
+                                    <img src="./assets/images/messenger.webp" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="mailto:firecomic247@gmail.com">
+                                    <img src="./assets/images/email.webp" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </header>
 
@@ -91,7 +91,7 @@
             <div class="container">
                 <div>
                     <picture class="bg-content-home">
-                        <img src="https://kr-a.kakaopagecdn.com/P/C/57/bg/2x/9a270a8d-2fd7-4317-9c67-b7c64a64150b.jpg"
+                        <img src="./assets/images/detail1/bg.webp"
                             alt="">
                     </picture>
                 </div>
@@ -177,7 +177,7 @@
                         </div>
                     </div>
                     <div class="content-anchor">
-                        <a href="./product-detail-chapter1.html">
+                        <a href="./product-detail1-chapter1.html">
                             <div class="watch-first-chap">
                                 <span>
                                     Xem tập đầu tiên
@@ -185,9 +185,9 @@
                             </div>
                         </a>
                         <div class="list-chapter">
-                            <a class="chapter" href="./product-detail-chapter1.html">
+                            <a class="chapter" href="./product-detail1-chapter1.html">
                                 <div class="icon-img">
-                                    <img src="./assets/images/detail1/item-1.webp" alt="">
+                                    <img src="./assets/images/detail1/chapter1/item-1.webp" alt="">
                                 </div>
                                 <div class="des">
                                     <p class="title">
@@ -203,9 +203,9 @@
 
                             </a>
 
-                            <a href="./product-detail-chapter1.html" class="chapter">
+                            <a href="./product-detail1-chapter1.html" class="chapter">
                                 <div class="icon-img">
-                                    <img src="./assets/images/detail1/item-2.webp" alt="">
+                                    <img src="./assets/images/detail1/chapter2/item-2.webp" alt="">
                                 </div>
                                 <div class="des">
                                     <p class="title">
@@ -220,9 +220,9 @@
                                 </div>
 
                             </a>
-                            <a href="./product-detail-chapter1.html" class="chapter">
+                            <a href="./product-detail1-chapter1.html" class="chapter">
                                 <div class="icon-img">
-                                    <img src="./assets/images/detail1/item-3.webp" alt="">
+                                    <img src="./assets/images/detail1/chapter3/item-3.webp" alt="">
                                 </div>
                                 <div class="des">
                                     <p class="title">
@@ -236,9 +236,9 @@
                                     <span class="label-free-span bg-color-white"> miễn phí</span>
                                 </div>
                             </a>
-                            <a href="./product-detail-chapter1.html" class="chapter">
+                            <a href="./product-detail1-chapter1.html" class="chapter">
                                 <div class="icon-img">
-                                    <img src="./assets/images/detail1/item-4.webp" alt="">
+                                    <img src="./assets/images/detail1/chapter4/item-4.webp" alt="">
                                 </div>
                                 <div class="des">
                                     <p class="title">
@@ -258,9 +258,31 @@
 
                                 </div>
                             </a>
-                            <a href="./product-detail-chapter1.html" class="chapter">
+                            <a href="./product-detail1-chapter1.html" class="chapter">
                                 <div class="icon-img">
-                                    <img src="./assets/images/detail1/item-2.webp" alt="">
+                                    <img src="./assets/images/detail1/chapter5/icon.webp" alt="">
+                                </div>
+                                <div class="des">
+                                    <p class="title">
+                                        ôn tập
+                                    </p>
+                                    <p class="date">
+                                        01/07/09
+                                    </p>
+                                </div>
+                                <div class="extend-info">
+                                    <div class="label-time-des">
+                                        <div class="time">
+                                            <img src="./assets/images/detail1/clock1.svg">
+                                            <span>3 giờ</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </a>
+                            <a href="./product-detail1-chapter1.html" class="chapter">
+                                <div class="icon-img">
+                                    <img src="./assets/images/detail1/chapter2/item-2.webp" alt="">
                                 </div>
                                 <div class="des">
                                     <p class="title">
@@ -272,9 +294,9 @@
                                 </div>
 
                             </a>
-                            <a href="./product-detail-chapter1.html" class="chapter">
+                            <a href="./product-detail1-chapter1.html" class="chapter">
                                 <div class="icon-img">
-                                    <img src="./assets/images/detail1/item-3.webp" alt="">
+                                    <img src="./assets/images/detail1/chapter3/item-3.webp" alt="">
                                 </div>
                                 <div class="des">
                                     <p class="title">
@@ -286,9 +308,9 @@
                                 </div>
 
                             </a>
-                            <a href="./product-detail-chapter1.html" class="chapter">
+                            <a href="./product-detail1-chapter1.html" class="chapter">
                                 <div class="icon-img">
-                                    <img src="./assets/images/detail1/item-2.webp" alt="">
+                                    <img src="./assets/images/detail1/chapter2/item-2.webp" alt="">
                                 </div>
                                 <div class="des">
                                     <p class="title">
@@ -312,6 +334,7 @@
 
     </div>
     <script src="./assets/js/menu.js"></script>
+    <script src="./assets/js/header.js"></script>
 </body>
 
 </html>
